@@ -19,5 +19,13 @@ public class Operations {
 			resultat*=i;
 		return resultat;
 	}
+	
+	public long soustraction(long...nombre){
+		long resultat = 0;
+		for(long i : nombre)
+			resultat-=i;
+		return resultat;
+	}
+	
 
 }

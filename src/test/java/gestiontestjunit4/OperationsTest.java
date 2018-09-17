@@ -49,6 +49,12 @@ public class OperationsTest {
 		long resultat = op.multiplication(2,10,8);
 		Assert.assertEquals(resultat,2*10*8);
 	}
+	
+	@Test
+	public void testSoustraction() {
+		long resultat = op.soustraction(8,5,1);
+		Assert.assertEquals(resultat, 8-5-1);
+	}
  
 	
 	public void testDivision(){
